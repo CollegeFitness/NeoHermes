@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Blend for Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeoHermes", "NeoHermes.csproj", "{23BABA15-C8D7-41FB-AD59-350E6A3E7871}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23BABA15-C8D7-41FB-AD59-350E6A3E7871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23BABA15-C8D7-41FB-AD59-350E6A3E7871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23BABA15-C8D7-41FB-AD59-350E6A3E7871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23BABA15-C8D7-41FB-AD59-350E6A3E7871}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66BABFFC-AFF6-43F0-BF8B-020C53A0F8C0}
+	EndGlobalSection
+EndGlobal
