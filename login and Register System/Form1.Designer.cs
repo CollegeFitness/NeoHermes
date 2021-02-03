@@ -37,9 +37,9 @@
             this.txtComPassword = new System.Windows.Forms.TextBox();
             this.checkbxShowPas = new System.Windows.Forms.CheckBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.SuspendLayout();
             // 
             // label1
@@ -144,24 +144,10 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
-            this.button2.Location = new System.Drawing.Point(33, 390);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(216, 35);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "CLEAR";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(55, 445);
+            this.label5.Location = new System.Drawing.Point(58, 401);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(163, 17);
             this.label5.TabIndex = 5;
@@ -172,22 +158,33 @@
             this.label6.AutoSize = true;
             this.label6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
-            this.label6.Location = new System.Drawing.Point(83, 471);
+            this.label6.Location = new System.Drawing.Point(86, 427);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(97, 17);
             this.label6.TabIndex = 5;
             this.label6.Text = "Back to LOGIN";
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
+            // bunifuCustomLabel1
+            // 
+            this.bunifuCustomLabel1.AutoSize = true;
+            this.bunifuCustomLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
+            this.bunifuCustomLabel1.Location = new System.Drawing.Point(256, 9);
+            this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
+            this.bunifuCustomLabel1.Size = new System.Drawing.Size(17, 17);
+            this.bunifuCustomLabel1.TabIndex = 19;
+            this.bunifuCustomLabel1.Text = "X";
+            this.bunifuCustomLabel1.Click += new System.EventHandler(this.bunifuCustomLabel1_Click);
+            // 
             // frmRegister
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.ClientSize = new System.Drawing.Size(285, 544);
+            this.ClientSize = new System.Drawing.Size(285, 495);
+            this.Controls.Add(this.bunifuCustomLabel1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.checkbxShowPas);
             this.Controls.Add(this.txtComPassword);
@@ -221,9 +218,9 @@
         private System.Windows.Forms.TextBox txtComPassword;
         private System.Windows.Forms.CheckBox checkbxShowPas;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel1;
     }
 }
 

@@ -23,3 +23,18 @@ C:\Users\FiercePC\Desktop\login and Register System\login and Register System\ob
 C:\Users\FiercePC\Desktop\login and Register System\login and Register System\obj\Debug\login and Register System.csproj.CopyComplete
 C:\Users\FiercePC\Desktop\login and Register System\login and Register System\obj\Debug\login and Register System.exe
 C:\Users\FiercePC\Desktop\login and Register System\login and Register System\obj\Debug\login and Register System.pdb
+C:\Users\FiercePC\Desktop\Fitness App\login and Register System\bin\Debug\login and Register System.exe.config
+C:\Users\FiercePC\Desktop\Fitness App\login and Register System\bin\Debug\login and Register System.exe
+C:\Users\FiercePC\Desktop\Fitness App\login and Register System\bin\Debug\login and Register System.pdb
+C:\Users\FiercePC\Desktop\Fitness App\login and Register System\bin\Debug\ComponentFactory.Krypton.Toolkit.pdb
+C:\Users\FiercePC\Desktop\Fitness App\login and Register System\obj\Debug\login and Register System.csprojAssemblyReference.cache
+C:\Users\FiercePC\Desktop\Fitness App\login and Register System\obj\Debug\login_and_Register_System.frmRegister.resources
+C:\Users\FiercePC\Desktop\Fitness App\login and Register System\obj\Debug\login_and_Register_System.frmLogin.resources
+C:\Users\FiercePC\Desktop\Fitness App\login and Register System\obj\Debug\login_and_Register_System.Properties.Resources.resources
+C:\Users\FiercePC\Desktop\Fitness App\login and Register System\obj\Debug\login and Register System.csproj.GenerateResource.cache
+C:\Users\FiercePC\Desktop\Fitness App\login and Register System\obj\Debug\login and Register System.csproj.CoreCompileInputs.cache
+C:\Users\FiercePC\Desktop\Fitness App\login and Register System\obj\Debug\login and Register System.csproj.CopyComplete
+C:\Users\FiercePC\Desktop\Fitness App\login and Register System\obj\Debug\login and Register System.exe
+C:\Users\FiercePC\Desktop\Fitness App\login and Register System\obj\Debug\login and Register System.pdb
+C:\Users\FiercePC\Desktop\Fitness App\login and Register System\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\FiercePC\Desktop\Fitness App\login and Register System\bin\Debug\Guna.UI2.dll

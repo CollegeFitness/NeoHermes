@@ -142,5 +142,10 @@ namespace login_and_Register_System
         {
 
         }
+
+        private void bunifuCustomLabel1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

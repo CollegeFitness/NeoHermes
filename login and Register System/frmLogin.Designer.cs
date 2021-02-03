@@ -30,7 +30,6 @@
         {
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.checkbxShowPas = new System.Windows.Forms.CheckBox();
             this.txtpassword = new System.Windows.Forms.TextBox();
@@ -38,6 +37,7 @@
             this.txtUsername = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.SuspendLayout();
             // 
             // label6
@@ -45,7 +45,7 @@
             this.label6.AutoSize = true;
             this.label6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
-            this.label6.Location = new System.Drawing.Point(87, 407);
+            this.label6.Location = new System.Drawing.Point(89, 362);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(101, 17);
             this.label6.TabIndex = 16;
@@ -55,25 +55,11 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(67, 384);
+            this.label5.Location = new System.Drawing.Point(69, 339);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(147, 17);
             this.label5.TabIndex = 17;
             this.label5.Text = "Dont Have an Account";
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
-            this.button2.Location = new System.Drawing.Point(37, 326);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(216, 35);
-            this.button2.TabIndex = 14;
-            this.button2.Text = "CLEAR";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -155,15 +141,26 @@
             this.label1.TabIndex = 6;
             this.label1.Text = "Get Started";
             // 
+            // bunifuCustomLabel1
+            // 
+            this.bunifuCustomLabel1.AutoSize = true;
+            this.bunifuCustomLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
+            this.bunifuCustomLabel1.Location = new System.Drawing.Point(260, 9);
+            this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
+            this.bunifuCustomLabel1.Size = new System.Drawing.Size(17, 17);
+            this.bunifuCustomLabel1.TabIndex = 18;
+            this.bunifuCustomLabel1.Text = "X";
+            this.bunifuCustomLabel1.Click += new System.EventHandler(this.bunifuCustomLabel1_Click);
+            // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.ClientSize = new System.Drawing.Size(289, 489);
+            this.ClientSize = new System.Drawing.Size(289, 450);
+            this.Controls.Add(this.bunifuCustomLabel1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.checkbxShowPas);
             this.Controls.Add(this.txtpassword);
@@ -188,7 +185,6 @@
 
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.CheckBox checkbxShowPas;
         private System.Windows.Forms.TextBox txtpassword;
@@ -196,5 +192,6 @@
         private System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel1;
     }
 }
