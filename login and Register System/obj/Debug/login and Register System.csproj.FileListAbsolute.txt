@@ -38,3 +38,4 @@ C:\Users\FiercePC\Desktop\Fitness App\login and Register System\obj\Debug\login 
 C:\Users\FiercePC\Desktop\Fitness App\login and Register System\obj\Debug\login and Register System.pdb
 C:\Users\FiercePC\Desktop\Fitness App\login and Register System\bin\Debug\Bunifu_UI_v1.52.dll
 C:\Users\FiercePC\Desktop\Fitness App\login and Register System\bin\Debug\Guna.UI2.dll
+C:\Users\FiercePC\Desktop\Fitness App\login and Register System\obj\Debug\login_and_Register_System.dashboard.resources
