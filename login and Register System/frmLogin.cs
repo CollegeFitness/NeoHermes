@@ -15,7 +15,7 @@ namespace login_and_Register_System
 {
     public partial class frmLogin : Form
     {
-        public static String sha256_hash(string value)
+        public static String sha256_hash(string value) //hashes the password
         {
             StringBuilder Sb = new StringBuilder();
 

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Runtime.InteropServices;
 
 namespace login_and_Register_System
 {
@@ -44,7 +45,12 @@ namespace login_and_Register_System
 
         }
 
-        private void label7_Click(object sender, EventArgs e)
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+            
+        }
+
+        private void label7_Click_1(object sender, EventArgs e)
         {
             Application.Exit();
         }
